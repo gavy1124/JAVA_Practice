@@ -78,7 +78,7 @@ class Person{
 	long id;
 	
 	public Person(long id) {
-		super();
+		super();  
 		this.id = id;
 	}
 	
