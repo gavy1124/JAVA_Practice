@@ -1,6 +1,6 @@
-package JAVA_Practice;
+package Git;
 
-import JAVA_Practice.Outer2.StaticInner;
+import Git.Outer2.StaticInner;
 
 class Outer2{
 	class Inner2{

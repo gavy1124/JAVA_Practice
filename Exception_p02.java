@@ -1,4 +1,4 @@
-package JAVA_Practice;
+package Git;
 
 import java.io.File;
 

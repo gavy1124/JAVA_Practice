@@ -1,4 +1,4 @@
-package JAVA_Practice;
+package Git;
 
 class A{  // 인터페이스를 사용하면 A 는 안건드려도된다.
 	public void method(I i) { //= new C()  // ★★★인터페이스 I를 구현부 완성한놈만 와라★★★
