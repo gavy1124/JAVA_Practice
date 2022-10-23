@@ -29,7 +29,6 @@ public class ch9_10_valueOf {
 		
 		
 		
-		
 	}
 
 }
