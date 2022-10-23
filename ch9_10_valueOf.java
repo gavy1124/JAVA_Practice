@@ -1,6 +1,6 @@
 package Git;
 
-public class Ex9_10_valueOf {
+public class ch9_10_valueOf {
 
 	public static void main(String[] args) {
 
