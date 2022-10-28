@@ -24,50 +24,12 @@ public class ch11_7 {
 		Collections.sort(list2);
 		print(list1, list2);
 		
-		
-		System.out.println("containsAll" + list1.containsAll(list2));
-		
-		list2.add("B");
-		list2.add("C");
-		print(list1, list2);
-		
-		list2.set(3, "AA");
-		print(list1, list2);
-		
-		System.out.println(list1.retainAll(list2));
-		print(list1, list2);
-		
-		list1.add(0, "1");
-		print(list1, list2);
-		
-		list1.add(0, 1);
-		System.out.println("-----------------------");
-		print(list1, list2);
-		
-		System.out.println("indexof : " + list1.indexOf("1"));
-		
-		
-		for (int i = list2.size()-1; i >= 0; i--) {
-			if(list1.contains(list2.get(i))) {
-				list2.remove(i);
-			}
-		}
-		System.out.println("-----------------------");
-		print(list1, list2);
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 	
 	public static void print(ArrayList n,ArrayList n2) {
-		System.out.println("list1 : " + n);
-		System.out.println("list2 : " + n2);
+		System.out.println(n);
+		System.out.println(n2);
 	}
 	
 	
