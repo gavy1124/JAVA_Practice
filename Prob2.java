@@ -82,7 +82,7 @@ class Drink {
 	}
 
 	public void printData() { // 상품정보출력
-		System.out.println(getName() + "\t" + getPrice() + "\t" + getCount() + "\t" + (getPrice() * getCount()));
+		System.out.println(name + "\t" + getPrice() + "\t" + getCount() + "\t" + (getPrice() * getCount()));
 
 	}
 
