@@ -15,10 +15,7 @@ public class ExceptionExam02 {
 		// 여기를 작성하십시오.
 
 		try {
-			if (str != null || str.length() != 0) {
-				convert(str);
-				System.out.println(str);
-			}
+			convert(str);
 		} catch (IllegalArgumentException e) {
 			System.out.println("예외가 발생하였습니다. 문자열을 입력하지 않고 Enter키를 누르셨습니다.");
 		}
@@ -26,10 +23,16 @@ public class ExceptionExam02 {
 	}
 
 //필요할 경우 다음의 메서드 선언부분(메서드 시그너처)을 수정하시기 바랍니다.
-	private static int convert(String str) throws IllegalArgumentException{
+	private static int convert(String str) {
 		int result = 0;
-		result = Integer.parseInt(str);
-		return result;
+		
+		if (str == null || str.length() == 0) {
+			throw new IllegalArgumentException("에러");
+		}else {
+			System.out.println(str);
+			result = Integer.parseInt(str);
+			return result;
+		}
 	}
 	
 	
