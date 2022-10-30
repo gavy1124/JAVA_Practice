@@ -27,10 +27,10 @@ public class ExceptionExam02 {
 		int result = 0;
 		
 		if (str == null || str.length() == 0) {
-			throw new IllegalArgumentException("에러");
+			throw new IllegalArgumentException();
 		}else {
-			System.out.println(str);
 			result = Integer.parseInt(str);
+			System.out.println(result);
 			return result;
 		}
 	}
